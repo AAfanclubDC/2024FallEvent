@@ -1,0 +1,602 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<style>
+@font-face {
+font-family: "Saitamaar";
+src: url("Saitamaar.woff2") format("woff2");
+}
+
+body {
+padding: 0;
+margin:0;
+line-height: 1.5;
+font-size: 14px;
+font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+background-color: #fcfcfc;
+}
+
+h1 {
+font-size: 15px;
+margin: 0;
+padding: 8px 4px 0px 8px;
+font-weight: normal;
+line-height: 1;
+height: 21px;
+
+background-color: #F0F1F6;
+border-top: solid #DCDFE6 1px;
+border-bottom: solid #DCDFE6 1px;
+color: #303133;
+}
+
+.koma {
+margin: 0 0 -1px 0;
+border-top: solid 1px #ccc;
+border-bottom: solid 1px #ccc;
+}
+
+.aa {
+font-family: 'Saitamaar';
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+white-space: nowrap;
+overflow: auto;
+white-space:nowrap;
+background-color: #fcfcfc;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.Narration {
+font-size: 20px;
+padding-left: 1em;
+font-family: 'DengXian', sans-serif;
+line-height: 25px;
+}
+
+.content-div {
+    display: none;
+    margin-top: 10px;
+}
+
+.toggle-button {
+	font-size: 20px;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 2px 6px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+</style>
+<title></title>
+</head>
+
+
+
+<body>
+
+<script>
+        function toggleDiv(divId) {
+            var divs = document.querySelectorAll('.content-div');
+            for (var i = 0; i < divs.length; i++) {
+				if (divs[i].style.display == 'block') {
+					divs[i].style.display = 'none';
+				}
+            }
+            var divToShow = document.getElementById(divId);
+            if (divToShow) {
+                divToShow.style.display = 'block';
+            }
+        }
+</script>
+
+<div id="part000" class="content-div" style="display: block;">
+<p class="Narration">-点击红色关键词来思考它们，决定下一步的行动<br>
+-刷新会重置网页状态<br>
+-电波/精神错乱/逻辑不通注意<br>
+-推荐在电脑观看<br>
+<br>
+<br>
+你在宿醉中醒来，头痛欲裂。你还穿着昨晚的衣服，袜子一只在脚上，另一只失踪了。衬衫和裤子，全都被汗湿透。<br>
+罪魁祸首是堆了一地的酒瓶，但为什么灌下它们你毫无印象，你甚至不记得自己是谁——也许，这就是你想要的。<br>
+<br>
+客厅没开灯，窗户也没透进一丝光。只有电视闪烁着，滚动着新闻：“以下是通报…小野富子，高桥凛，高桥薰，中岛由纪…”<br>
+<br>
+你去厕所洗了手，关掉浴室的花洒。卧室的门锁着，你用力拽门把手，没用。你去储藏室拿了咖啡，在厨房等它冲好。<br>
+叩叩叩，你听到<button class="toggle-button" onclick="toggleDiv('part001')">敲门声</button>。</p>
+</div>
+
+
+<div id="part001" class="content-div">
+<p class="Narration">你打开门，外面站着一个西装革履的老人，他向你出示警察手账：秋谷稻近，来自东京千代田区地方署。<br>
+你不记得招惹过条子，但<button class="toggle-button" onclick="toggleDiv('part002')">你</button>心里升起一股无名的慌乱。也许所有人都会这样。<br>
+「您好。关于外星人事件，我有些事想询问。」<br>
+<br>
+秋谷问你是否在附近看到过<button class="toggle-button" onclick="toggleDiv('part028')">外星人</button>。你说没有。<br>
+他说，「这样啊。还有件事想问，您见过照片上的女孩么？」<br>
+<br>
+你接过他递的照片。上面短发的少女在笑着。<br>
+「她叫<button class="toggle-button" onclick="toggleDiv('part032')">忍野扇</button>。」秋谷说。</p>
+</div>
+
+<div id="part002" class="content-div">
+<p class="Narration">你问秋谷为什么找你。<br>
+「这栋公寓的住户我都问了，这是最后一家了。」他看了眼门牌上的姓氏，「呃…<button class="toggle-button" onclick="toggleDiv('part003')">高桥</button>先生，对吧？」<br>
+<br>
+你说你什么也没干，也没看见可疑的东西，要他回去。<br>
+「这可不行。请让我进去，失礼了。」他在玄关脱下鞋子，走进来。<br>
+<br>
+你问他是否有搜查令。他说没有。<br>
+你说会向当局投诉，他说随你。<br>
+<br>
+他到处转了一圈，停在卧室前。他用力拽门把手，没用。<br>
+「能<button class="toggle-button" onclick="toggleDiv('part009')">找找</button>钥匙吗？不然我只好<button class="toggle-button" onclick="toggleDiv('part017')">踹</button>开它了。」</p>
+</div>
+
+<div id="part003" class="content-div">
+<p class="Narration">Taka…hashi。你反复咀嚼着这个姓氏，它使你想起了另一座<button class="toggle-button" onclick="toggleDiv('part004')">桥</button>。</p>
+</div>
+
+<div id="part004" class="content-div">
+<p class="Narration">你当时站在它的边缘。狂风呼啸。<br>
+是偶然路过的<button class="toggle-button" onclick="toggleDiv('part032')">忍野扇</button>把你拖了回来。<br>
+<br>
+那是几十英尺的高空中。但是，她愿意为了你翻过护栏，一寸寸地向你挪步，直到抓住你的衣袖。<br>
+「又见面了。又想着去死了吗？交通道路局会很头痛吧，毕竟从这摔下去的话，血很难从柏油马路上清理掉嘛。」<br>
+<br>
+你把你迫切想做的<button class="toggle-button" onclick="toggleDiv('part005')">那件事</button>告诉了她。而她没有惊讶，而是一如既往带着笑意回答：<br>
+「嗯，我也有兴趣喔。来<button class="toggle-button" onclick="toggleDiv('part006')">我家</button>做吧。」</p>
+</div>
+
+<div id="part005" class="content-div">
+<p class="Narration">从那之后大概两个月间，你们一直在做那件事。窗帘拉死，房间里夜夜传出苦闷的声音，每天都累到下不来床。<br>
+「做这种事，高兴吗？」但是，忍野扇却不像你那样高兴。她一直在笑着，但感觉不到她的开心。<br>
+<br>
+你问她，为什么要奉陪自己。<br>
+「因为我以前自杀过。虽然现在意识到了这是多么愚蠢的事，但是，对人体产生了兴趣。既然伤害自己来满足它是错误的，那选择另外一种方式也无可厚非吧？」<br>
+<br>
+你感到很不甘心。总觉得她是在安慰你，时至今日，依然在单方面拯救着你。明明，想让她也乐在其中的。<br>
+「继续吧？反正只是<button class="toggle-button" onclick="toggleDiv('part012')">玩耍</button>而已，进行多久我都无所谓喔。」她洗了手，又笑着把你带进了浴室。</p>
+</div>
+
+<div id="part006" class="content-div">
+<p class="Narration">那时你已经是个流浪汉，无家可归。你跟着扇回了她家，然后一直住着。没有搬出去的印象。<br>
+你背上出了冷汗。<br>
+<br>
+这里是忍野扇的家。既然如此，为什么她不在这里。<br>
+不，那外面的门牌上写的应该是忍野。<br>
+<br>
+为什么这个<button class="toggle-button" onclick="toggleDiv('part007')">警察</button>知道你姓什么？</p>
+</div>
+
+<div id="part007" class="content-div">
+<p class="Narration">你怀疑起他的身份，要求再看一眼秋谷的警察手账。<br>
+「怎么了？」秋谷眨眨眼，「今天你给人的感觉很古怪，像第一次见我似的。」<br>
+<br>
+像第一次？<br>
+「我以前来过。您不记得了？」<br>
+<br>
+你愣住了。失控感让你的喉头止不住地吞咽。你当时说过什么？不记得的话，连<button class="toggle-button" onclick="toggleDiv('part008')">撒谎</button>都撒不圆。<br>
+「对了，那时您好像说过。钥匙都放在<button class="toggle-button" onclick="toggleDiv('part009')">储藏室</button>。」</p>
+</div>
+
+<div id="part008" class="content-div">
+<p class="Narration">想到这里，你的不安达到了顶点。你开始指责秋谷，说他在撒谎。<br>
+「我说的是实话，毕竟，上次来的时候，我留了一点东西在这里。」他愉快地抖动着小胡子，看着你慌张的模样，「就在您的卧室里。」<br>
+<br>
+嘎吱，那扇怎么转门把也打不开的门，自己敞开了。<br>
+秋谷在里面。他被割了喉的尸体，倒在衣柜前，周围满是争斗的痕迹。<br>
+<br>
+「找到了，我的身体。」你身边的秋谷眼口鼻中流出鲜血。<br>
+你再次掏出折叠刀，切了他的动脉，但这一次什么也没切到。<br>
+<br>
+END-6 厉鬼</p>
+</div>
+
+<div id="part009" class="content-div">
+<p class="Narration">你和秋谷去了储藏室，寻找能打开门的工具。从没用过的<button class="toggle-button" onclick="toggleDiv('part010')">茶杯</button>，酒器。一大堆蒙尘的五金工具，扳手，锯子，钳子。胶带，绳子和刷墙用的漆。各种女用包挂在架子上，还有个黑色的<button class="toggle-button" onclick="toggleDiv('part014')">手提袋</button>。<br>
+全是破烂。<br>
+<br>
+他毫不客气地翻找着抽屉。你警告他不要乱碰。<br>
+「现在该被警告的人是你，先生。你身上有某些重大的嫌疑，而我是来弄清这事的。」<br>
+<br>
+尴尬的沉默持续了一会儿，又响起哗啦哗啦的翻找声。你的余光瞄向门后立着的<button class="toggle-button" onclick="toggleDiv('part016')">撬棍</button>。</p>
+</div>
+
+<div id="part010" class="content-div">
+你问秋谷要不要喝咖啡或茶。他似乎把这视作你愿意合作的信号，欣然同意了，说要喝茶。<br>
+你让他去客厅里等，自己去厨房泡茶。<br>
+<br>
+印象中，也给扇泡过茶。同样的厨房，同样的茶具。<br>
+「嗯，好香～茶我也会泡，但为什么没那么香呢？」<br>
+<br>
+窗户没有钉死，阳光洒进来。你解释<button class="toggle-button" onclick="toggleDiv('part011')">水温</button>和茶叶先放后放的区别，而她只是挽住你的<button class="toggle-button" onclick="toggleDiv('part020')">手臂</button>。<br>
+「可惜，很快就喝不到你泡的茶了。」<br>
+她是什么意思。目眩，耳鸣起来。</p>
+</div>
+
+<div id="part011" class="content-div">
+<p class="Narration">浴室的水很烫。你拿着花洒，另一只手仔细拧着旋钮，但它就是忽冷忽热。<br>
+「喂，调成温水有这么难吗？」扇向你泼水<button class="toggle-button" onclick="toggleDiv('part012')">玩</button>。你解释，但她不听。<br>
+最后你放弃了，因为对浴缸里的人差别不大。那是个全身赤裸的<button class="toggle-button" onclick="toggleDiv('part013')">女人</button>。<br>
+为什么，会突然想起这幅景象。<br>
+<br>
+「高桥先生？」客厅传来呼唤。你端着冷掉的茶回去。</p>
+</div>
+
+<div id="part012" class="content-div">
+<p class="Narration">对扇来说，或许你们之间只是玩玩而已的关系吧。<br>
+但对你来说不同。你是第一次遇见能分享爱好的对象。<br>
+那原本只是在<button class="toggle-button" onclick="toggleDiv('part019')">失业</button>的压力下一时冲动的善后，是扭曲无比的事情；但有扇在身边笑着鼓励你，帮助你，你渐渐感觉那变成了正当的<button class="toggle-button" onclick="toggleDiv('part039')">爱好</button>。<br>
+你也不确定外界是怎么评价你们的。<br>
+「交往对象？嗯，忍野似乎是有一个。」秋谷喝了一口茶，「听说交往后<button class="toggle-button" onclick="toggleDiv('part034')">开朗</button>了不少。」</p>
+</div>
+
+<div id="part013" class="content-div">
+<p class="Narration">那女人是谁？你绞尽脑汁地回想着，终于想起来。<br>
+那是你的<button class="toggle-button" onclick="toggleDiv('part018')">前妻</button>，高桥薰。也许吧，至少脸长得像她。<br>
+<br>
+「怎么了？你好像很动摇的样子。」秋谷接过茶，吹了吹。<br>
+你支吾搪塞过去。</p>
+</div>
+
+<div id="part014" class="content-div">
+<p class="Narration">你打开那个手提袋。在一众小巧的女士包中，只有它显得庞大，笨重，格格不入。<br>
+<button class="toggle-button" onclick="toggleDiv('part015')">钥匙</button>就放在里面，除此之外，没有任何东西。<br>
+<br>
+你的记忆模模糊糊地复苏。那天在<button class="toggle-button" onclick="toggleDiv('part004')">桥</button>上，你也给忍野扇打开这个手提袋看过。<br>
+当时里面<button class="toggle-button" onclick="toggleDiv('part020')">装了什么</button>呢。</p>
+</div>
+
+<div id="part015" class="content-div">
+<p class="Narration">你对秋谷说，你找到了钥匙。<br>
+「太好了，走吧。」<br>
+<br>
+你们打开了卧室的门。里面什么也没有。<br>
+这也是理所当然的——既然你如此坦荡地把钥匙拿出来，里面当然不会有任何痕迹。<br>
+<br>
+「嗯。打扰到你真是抱歉。」秋谷拉低帽檐，但语气中没有甘心的意思，你清楚这不是他想看的，「我还会再来的。」<br>
+当然，你说，随时欢迎。<br>
+<br>
+END-8 空屋</p>
+</div>
+
+<div id="part016" class="content-div">
+<p class="Narration">你抡起撬棍，敲了秋谷的头。他应声而倒。血迹蔓延开来。<br>
+从储藏室拿出塑料布，将秋谷的尸体包起来。然后肆意地殴打，直到他变成一滩肉泥。<br>
+<br>
+你到楼下开上车，驶向那个湖畔。你将塑料袋绑上重物，扔进湖里。<br>
+<br>
+忍野扇在一旁看着你。她在笑着。<br>
+「这可不行啊。你又杀人了。你看新闻了吗？马上——你就要被抓到了喔。」<br>
+<br>
+她向你递出手，「跟我一起逃走吧。」<br>
+你伸手和她相握。然后，你独自一人回到车上，发动了引擎。<br>
+<br>
+END-5 反杀</p>
+</div>
+
+<div id="part017" class="content-div">
+<p class="Narration">踹。听到这个字，你又头痛起来。你听到过去的声音，你想起你那段不幸的<button class="toggle-button" onclick="toggleDiv('part018')">婚姻</button>生活，每次你都逃进卧室里，锁上门。<br>
+「我数三下，从里面滚出来。不然我就<button class="toggle-button" onclick="toggleDiv('part027')">踹门</button>了！」<br>
+然后，妻子就会开始倒数。而你只能像热锅的蚂蚁一样，绝望地<button class="toggle-button" onclick="toggleDiv('part009')">翻找</button>能用来抵抗的东西。</p>
+</div>
+
+<div id="part018" class="content-div">
+<p class="Narration">你想起来了。你曾有过一段婚姻。那时住的房子比这里大很多，直到你<button class="toggle-button" onclick="toggleDiv('part019')">失业</button>为止。<br>
+你们有个女儿，你不记得她的脸了，只记得她每天回家穿着一身高中校服。跟忍野扇穿的校服是一个<button class="toggle-button" onclick="toggleDiv('part023')">款式</button>。</p>
+</div>
+
+<div id="part019" class="content-div">
+<p class="Narration">去年你丢了销售部的工作。大家都说不是你的问题，背地里又说你活该。<br>
+你离了婚，女儿没跟你。也许这就是为什么，你缩在黑暗、狭窄的单人公寓里，宿醉。<br>
+<br>
+某天，你独自开车去湖边。你强烈地想把什么扔进湖里，也许是流言蜚语，也许是苦涩的回忆，又或者，对，是你自己。<br>
+在那里，你第一次遇见了<button class="toggle-button" onclick="toggleDiv('part032')">忍野扇</button>。<br>
+<br>
+她把浑身是水的你拖上岸。<br>
+「不行啊，叔叔。居然想死在这么美丽的地方。以后来约会的小情侣都要和你的<button class="toggle-button" onclick="toggleDiv('part020')">尸体</button>为伴，这怎么行！」<br>
+说这话时，她用袖套遮着嘴，双眼愉快地上弯。轻快地笑着。<br>
+不知为何讨厌不起来。和公司里暗中笑你的人不同，她不懂你那个世界的游戏规则，就像<button class="toggle-button" onclick="toggleDiv('part028')">外星</button>的来客。</p>
+</div>
+
+<div id="part020" class="content-div">
+<p class="Narration">虽只是朦胧的印象，你觉得自己见过尸体。<br>
+白花花的肢体，殷红的血在流淌。黑色的衣服掉在一边，上面有三个领结。而你不断向后退去，心脏怦怦跳个不停，血液冲上头顶。<br>
+还<button class="toggle-button" onclick="toggleDiv('part021')">活着</button>吗？还是<button class="toggle-button" onclick="toggleDiv('part022')">死了</button>？话说回来，那到底是<button class="toggle-button" onclick="toggleDiv('part013')">谁</button>…</p>
+</div>
+
+<div id="part021" class="content-div">
+<p class="Narration">还活着，你不知为何如此认为。因为没有理由会死。<br>
+支撑着生命活动的重要器官，手脚上一个也没有，既然如此，只是被砍下了手脚而已，怎么可能会死？<br>
+「果然，人还是<button class="toggle-button" onclick="toggleDiv('part048')">活着</button>更加美丽…」</p>
+</div>
+
+<div id="part022" class="content-div">
+<p class="Narration">果然，那样子还是死了吧。如果还活着，不可能不动的。一定会挣扎，呼救，求饶。<br>
+你的心中仿佛沉了艘船一样悲伤，但是，又有不可思议的满足感。<br>
+死去，静止的东西最美丽。<br>
+<br>
+「果然，忍野扇已经<button class="toggle-button" onclick="toggleDiv('part046')">死了</button>吧？」冷不丁的，秋谷这样问你。</p>
+</div>
+
+<div id="part023" class="content-div">
+<p class="Narration">你把这条线索告诉了秋谷。<br>
+「是的，您女儿和忍野都上九高（指千代田区立九段高等学校），制服一样。」他喃喃，「黑色的…有三个领结的那种。」<br>
+<br>
+你不安起来，这一定不是个偶然。<br>
+「和您担心的一样，您女儿也失踪了。这是一起连续<button class="toggle-button" onclick="toggleDiv('part035')">失踪事件</button>。」秋谷继续转门把，「但她刚刚被<button class="toggle-button" onclick="toggleDiv('part024')">找到</button>了，而忍野还没有。」</p>
+</div>
+
+<div id="part024" class="content-div">
+<p class="Narration">你的情绪在短短几秒内大幅起伏。你连忙追问，你女儿她没事吧。<br>
+「您，真的不知道吗？」秋谷用那双忧伤的眼睛看着你，「难道您没看<button class="toggle-button" onclick="toggleDiv('part025')">新闻</button>吗？」</p>
+</div>
+
+<div id="part025" class="content-div">
+<p class="Narration">新闻。电视里的新闻。<br>
+「昨夜七点，警方在千代田区的一栋复式<button class="toggle-button" onclick="toggleDiv('part026')">住宅</button>里找到了大量女性的<button class="toggle-button" onclick="toggleDiv('part020')">尸体</button>。以下是通报…小野富子，高桥凛，高桥薰，中岛由纪…」</p>
+</div>
+
+<div id="part026" class="content-div">
+<p class="Narration">你定睛看清那住宅的地址。那曾经是<button class="toggle-button" onclick="toggleDiv('part006')">你的家</button>。<br>
+你花了几十分钟才让情绪平复下来，期间，秋谷一直在旁边安慰你，还给你端来了早上的<button class="toggle-button" onclick="toggleDiv('part010')">咖啡</button>。<br>
+<br>
+你问秋谷，为什么来找自己不是问女儿的事，而是问忍野扇。<br>
+而他的回答依旧，忧伤依旧，「您真的不知道吗？」</p>
+</div>
+
+<div id="part027" class="content-div">
+<p class="Narration">你冲上去踹卧室门。哐哐哐哐，哐哐哐哐。就像妻子把你揪出来一样。<br>
+秋谷眼睛睁圆了。<br>
+<br>
+门里面——有你上吊的尸体。如果妻子踹开门，看到这副景象，她那惊慌的神情将有多么令人快意——你不止一次如此想象。<br>
+但你真的扛不住是在离婚之后。她再也没机会看见了。<br>
+<br>
+「为什么…门会自己打开呢？」秋谷喃喃自语，拉低了礼帽；他看了看四周，「虽然想象与失踪者聊天是我的办案习惯，但看来，把这屋子里的什么给招来了啊…」<br>
+他双手合十，出去买线香。给他开门的管理员一脸不安。在你拧断的脖子上面，绳子吱嘎作响。<br>
+<br>
+END-1 上吊</p>
+</div>
+
+<div id="part028" class="content-div">
+<p class="Narration">你问秋谷外星人是怎么回事。<br>
+「起初有人看到飞碟在这附近降落。然后不断有人报警，说是目击到了外星人。」<br>
+<br>
+这种可疑的报警，也能相信吗？你问道。<br>
+「唉，因为<button class="toggle-button" onclick="toggleDiv('part029')">好巧不巧</button>，这附近发生了连续<button class="toggle-button" onclick="toggleDiv('part035')">失踪事件</button>。警察只好管上一管。」</p>
+</div>
+
+<div id="part029" class="content-div">
+<p class="Narration">你打断了他的话，问“好巧不巧”这个词是什么意思。<br>
+秋谷耐心地解释，「说好巧是因为很巧合。说不巧则是因为很<button class="toggle-button" onclick="toggleDiv('part030')">吊诡</button>，为什么偏偏这么凑巧——而且失踪的都是女性，包括<button class="toggle-button" onclick="toggleDiv('part032')">忍野扇</button>在内。」<br>
+<br>
+你表示实在难以理解同时用肯定和否定表达同一个意思的句式。<br>
+「这是很基础的语言。」</p>
+</div>
+
+<div id="part030" class="content-div">
+<p class="Narration">你问秋谷“吊诡”是什么意思。<br>
+「就是指现在这种情况。」他拿出一个仪器，对你闪了一下，然后快速记录起数据，「为什么，您会不断对这种国中生水平的语文感到困惑呢，高桥先生？」<br>
+<br>
+高桥？那是谁？是指你吗？<br>
+是的，你还记得你姓高桥。你结过婚，你有一个女儿。你就是<button class="toggle-button" onclick="toggleDiv('part031')">你</button>。</p>
+</div>
+
+<div id="part031" class="content-div">
+<p class="Narration">「别回忆那些虚假的过去了。倒也不是假的，但它们不属于你，而属于这副身体。」<br>
+他指了指你，下一个瞬间，他将你击倒在地。<br>
+<br>
+「你确实隐藏的很好。你的脾下器官，似乎能让事实按你的想法发展吧？所以我才谎称收到大量外星人目击报告，结果，你确实表现得越来越像外星人。」<br>
+他将闪着红光的金属棒贴近你的三只复眼。你蠕动着触手，鸣叫着。<br>
+<br>
+「因为你心里知道，这里的外星人只有一个，那就是你。」<br>
+<br>
+END-7 伪人</p>
+</div>
+
+<div id="part032" class="content-div">
+<p class="Narration">你问秋谷，忍野扇怎么了。<br>
+「她从几天前就没去学校。也联系不上她的<button class="toggle-button" onclick="toggleDiv('part050')">家人</button>。」老警察说，「而且，这附近发生了多起<button class="toggle-button" onclick="toggleDiv('part035')">失踪事件</button>，现在我们正一并侦办。」</p>
+</div>
+
+<div id="part050" class="content-div">
+<p class="Narration">你问秋谷，联系了哪些忍野家的人。<br>
+「她<button class="toggle-button" onclick="toggleDiv('part018')">父母</button>。虽然在学校登记簿上写着名字，但进路商谈一次也没去过。听学校说，还有个<button class="toggle-button" onclick="toggleDiv('part033')">恋人</button>，也没找到。」<br>
+<br>
+你的头阵阵刺痛。这些名词，你都感到熟悉。</p>
+</div>
+
+<div id="part033" class="content-div">
+<p class="Narration">你问起忍野扇恋人的事情。<br>
+「目前我们最怀疑的就是这个人。身份不明，只听说和他交往后，忍野变得很<button class="toggle-button" onclick="toggleDiv('part034')">开朗</button>。男学生里有不少<button class="toggle-button" onclick="toggleDiv('part037')">嫉妒</button>的人，但不至于做什么出格的事。」</p>
+</div>
+
+<div id="part034" class="content-div">
+<p class="Narration">你问，交往后变开朗了？这是真的吗？<br>
+「嗯。听说以前她是个有点奇怪的孩子，虽然爱笑，却让人感受不到开心。」秋谷耸耸肩，「甚至有过未遂的自杀。但现在完全没这种事了。」<br>
+<br>
+你敲了敲卧室的门，说：听到了吗，别人是这样说的喔。<br>
+「烦死了！」屋里传出一声呵斥。<br>
+<br>
+门被打开了。只穿睡衣的扇现身，她还发着烧，没请假就翘了课。<br>
+「怎么了？这位老人是谁？」<br>
+<br>
+「喔喔…这真是失礼了。」秋谷捏着礼帽退了一步，「因为谁都联系不上您，校方认为您失踪了…看来是失踪在爱河里了啊。」<br>
+他对你挤挤眼，然后告辞了。<br>
+<br>
+END-2 日常</p>
+</div>
+
+<div id="part035" class="content-div">
+<p class="Narration">你问起失踪事件的详细情况。<br>
+「都发生在这一带，受害者大多是十五六岁的女高生，也有白领女性。」秋谷说，「搜查本部已经建立，把这一系列事件当作<button class="toggle-button" onclick="toggleDiv('part044')">连续</button>绑架事件考虑。但是，我个人有些不同的见解。」<br>
+<br>
+你问他，他的见解是什么？<br>
+「受害者乍一看都很相似，但这些相似点仅限于警方公开了的情报而已。其中会不会有模仿犯做下的<button class="toggle-button" onclick="toggleDiv('part036')">孤立</button>事件呢…我是这样想的。」</p>
+</div>
+
+<div id="part036" class="content-div">
+<p class="Narration">你紧张起来，问秋谷为什么这样想。<br>
+「很简单。就拿忍野扇来说吧。其他所有受害者都是单身女性——只有她有个<button class="toggle-button" onclick="toggleDiv('part037')">男朋友</button>。」<br>
+「从犯人的心理来考虑，无论他认为单身女性更容易落单，还是追求某种心理上的纯洁性——突然在最新的案件里打破这个惯例，很不自然吧？」<br>
+<br>
+如果是激情犯罪的话，未必会注意这些。只要外貌符合就够了。你这样说。<br>
+「很难想象是激情犯罪。因为犯行如此之多，目击报告却完全没有。而且也很难想象是单独作案。如果真的是连续绑架事件，凶手至少有<button class="toggle-button" onclick="toggleDiv('part045')">两人</button>吧。」</p>
+</div>
+
+<div id="part037" class="content-div">
+<p class="Narration">你不安地问起，扇居然有男朋友？<br>
+「怎么了？您似乎很动摇呐。」秋谷瞥了你一眼，「根据调查，她曾在这里跟您同居过很长一段时间吧？但考虑到你们的年龄差，实在很难想象是情侣。」<br>
+<br>
+你想起来了。<br>
+「抱歉，这种事我已经做厌了。我想和他认真交往，所以请你搬出去吧。」<br>
+那天，扇是这么对你说的。你<button class="toggle-button" onclick="toggleDiv('part038')">暴怒</button>了——但<button class="toggle-button" onclick="toggleDiv('part042')">冷静</button>下来想想，这种事是注定的。</p>
+</div>
+
+<div id="part038" class="content-div">
+<p class="Narration">你生起气来，要秋谷别对你和扇的关系说三道四。没错。你和她之间共享的<button class="toggle-button" onclick="toggleDiv('part039')">秘密</button>，绝不是区区的男女关系能相比的。<br>
+「嘛嘛，别冲动。冲动是<button class="toggle-button" onclick="toggleDiv('part041')">魔鬼</button>啊，高桥先生。」秋谷摆出和解的手势。</p>
+</div>
+
+<div id="part039" class="content-div">
+<p class="Narration">没错，你和忍野扇的秘密。你们共同的<button class="toggle-button" onclick="toggleDiv('part047')">爱好</button>。眼前这个男人，绝对没可能知道。<br>
+「该说说了吧？」秋谷放下茶杯，抬眼看着你，「你和忍野扇，那异乎常人的羁绊。」<br>
+<br>
+你愣住了。你当然不知道，撰写这份报告书的<button class="toggle-button" onclick="toggleDiv('part040')">我</button>，秋谷的同事——已经把你调查的很清楚。</p>
+</div>
+
+<div id="part040" class="content-div">
+<p class="Narration">从你拒捕逃走之后，已经过去四十个小时了。警方依然没找到你的踪迹。<br>
+媒体对于你会去哪里众说纷纭，有人说你会向警视厅寻仇。但秋谷先生本来就奋战在逮捕你的第一线，至于我，你更是无从知晓。<br>
+<br>
+我是安全的。所以这个凌晨四点的警视厅办公室里，即使只有我一个人也没什么好怕的。写完手上的报告，就去吃关东煮吧。<br>
+像你和忍野扇这种猎奇犯罪者，必定会受到天罚。<br>
+<br>
+所以，我没什么好怕的，门口传来的脚步声也一定是我的错觉。<br>
+你没理由知道我的存在。<br>
+<br>
+END-0 警视厅分尸事件</p>
+</div>
+
+<div id="part041" class="content-div">
+<p class="Narration">「不过，差不多该让我看看了？」秋谷不知第几次踱步到卧室门口，敲了敲那扇打不开的门，「你应该明白吧？」<br>
+是的。被怀疑到这个地步，你应该已经逃不掉了吧。<br>
+<br>
+你从口袋掏出钥匙，插入门中，转动。<br>
+卧室门开了。苍蝇轰鸣。忍野扇的尸体横在床上，脖子上的红印已经变成黑斑。已经腐烂的没有半点生前美丽的样子了。<br>
+<br>
+是你干的。但你更愿相信那个瞬间的你不是自己，而是魔鬼，是外星人…随便是什么。你的选择是酗酒。<br>
+<br>
+「以故意杀人罪逮捕你。」秋谷给你戴上手铐。<br>
+<br>
+END-3 逮捕</p>
+</div>
+
+<div id="part042" class="content-div">
+<p class="Narration">你冷静下来。你感到喉咙<button class="toggle-button" onclick="toggleDiv('part010')">干渴</button>。<br>
+无论秋谷说什么，你和扇之间的关系都不会动摇。无论是美好的部分，还是遗憾的部分。<br>
+<br>
+那天也是这样。<br>
+你迅速冷静下来，目送她在大雨中撑着伞离开。那一去她就没再回来，没有续租的公寓转租给了你。<br>
+<br>
+「我什么也没做。」你说，「除了灌自己一肚子<button class="toggle-button" onclick="toggleDiv('part000')">酒</button>之外。」<br>
+「是吗？」秋谷笑了笑，「很快就会<button class="toggle-button" onclick="toggleDiv('part043')">真相大白</button>。」</p>
+</div>
+
+<div id="part043" class="content-div">
+<p class="Narration">那天秋谷看了你空无一物的卧室后，就悻悻地回去了。<br>
+你习惯了过一个人的生活，也不再酗酒。<br>
+<br>
+某天你在拥挤的电车站台再次碰到了忍野扇，她身边站着一个陌生的男学生。<br>
+电车呼啸而来。你挤过人群，穿过安全黄线，走向闪着车灯的黑暗轨道，你跳了下去。<br>
+<br>
+你被一只手用力拽了回来。<br>
+忍野扇低头，轻快地笑着，「又想去死吗，大叔？这可不行啊，会给铁路局添麻烦的。」<br>
+<br>
+所以说，就是这种地方，你想着。<br>
+<br>
+END-9 重逢</p>
+</div>
+
+<div id="part044" class="content-div">
+<p class="Narration">你问他警视厅为什么把这当作连续绑架事件。<br>
+「受害者之间很相似，时间也集中在最近两个月，这样考虑最自然。」<br>
+秋谷摩挲着胡子，「现在搜查本部有两个猜想，首先犯人不止一个人，应该有<button class="toggle-button" onclick="toggleDiv('part045')">共犯</button>。其次，并不是激情犯罪，而是为了<button class="toggle-button" onclick="toggleDiv('part047')">兴趣</button>进行的诱拐和谋杀。」</p>
+</div>
+
+<div id="part045" class="content-div">
+<p class="Narration">你问秋谷为什么觉得有共犯。<br>
+「因为受害者全是女性。根据统计学，这种案件几乎全是男人犯下的，然而，犯人似乎能自由出入更衣室等女性限定的场所。」<br>
+「所以我们认为有一个男性主犯，和一个女性的从犯，两人之间很可能同居，或是情侣关系。」<br>
+<br>
+你沉默了。<br>
+「果然，忍野扇已经<button class="toggle-button" onclick="toggleDiv('part046')">死了</button>吧？」冷不丁的，秋谷这样问你，「没理由只让她一个躲起来。你把她也杀了，对吧。」</p>
+</div>
+
+<div id="part046" class="content-div">
+<p class="Narration">不对，扇她没死！你大声争辩。她还活得好好的。你指向那扇卧室的门，说，她只是发烧了没去学校，只要你出声招呼，她就会回应的。<br>
+「承认现实吧。实际上，今天我过来拜访是因为——」秋谷甩给你几张照片，白色的肢体，「发现了她的手和脚啊。」<br>
+<br>
+你发疯似的掏出钥匙，冲进房间。<br>
+忍野扇没有四肢的胴体，美丽地伫立在房间中央。她闭着眼睛，一动也不动。静止的事物最为美丽。<br>
+<br>
+你看，她还活着吧？你说，她在向你微笑呢，就像无数次救下轻生的你时那样。<br>
+「起初你们是共犯。后来，你忍不住向她出手了吧。」秋谷面无表情地说，「从你最初向夫人和女儿下手来看，对心爱之人出手是你的癖好。代价就是快乐伴随着巨大的痛苦，所以你才会酗酒吧。你已经要疯了，或是已经疯了。」<br>
+<br>
+不对。不对。扇还活着，我还没下手，还没有呢——你喃喃自语着，戴上了手铐。<br>
+<br>
+END-4 人棍</p>
+</div>
+
+<div id="part047" class="content-div">
+<p class="Narration">你问秋谷，为什么觉得是兴趣犯罪。<br>
+「被害人之间没有任何关联性。出于某种利益或情绪的动机，几乎立刻就被排除了。而且…」秋谷看着你的眼睛，「十几岁的女高中生，果然有虐杀的价值吧？」<br>
+<br>
+你不安地问，为什么要提到虐杀，现在只是失踪而已吧。<br>
+「情报还没向媒体公布，实际上发现了手脚。被扔的到处都是。躯体则一具没有。从概率上来说，躯体比手脚容易发现的多吧？所以最合理的推测是，唯独躯体犯人没有扔掉。」<br>
+<br>
+你说，真让人毛骨悚然。<br>
+「话说回来，您觉得如何？」秋谷说，你一时没弄懂他的意思，他连眼角的皱纹都在笑着，问你，「十几岁的女高中生啊。你觉得<button class="toggle-button" onclick="toggleDiv('part020')">死了</button>的好？还是<button class="toggle-button" onclick="toggleDiv('part048')">活着</button>的好？」</p>
+</div>
+
+<div id="part048" class="content-div">
+<p class="Narration">「果然，您觉得活着的<button class="toggle-button" onclick="toggleDiv('part049')">更好</button>。」<br>
+头脑充血，耳膜轰鸣。为什么，秋谷在和你讨论这种问题。刚才喝的茶里，难道加了什么…<br>
+不对，也可能是宿醉未醒。<br>
+<br>
+「但是，被发现的您的夫人和女儿，还有其他受害者全都死了。」老刑警遗憾地双手交叉，「没有专业的医疗设施，人失去四肢是活不下去的。」<br>
+他在说什么？啊，是了，薰和凛已经死了…你想起来了。<br>
+<br>
+「就是因为想让她们活着，结果一直死去，你才会持续作案吧。结果，比期待死亡的犯罪更加恶劣。」<br>
+<br>
+「差不多让我看看吧。忍野扇的<button class="toggle-button" onclick="toggleDiv('part046')">尸体</button>。」</p>
+</div>
+
+<div id="part049" class="content-div">
+<p class="Narration">你掏出钥匙打开了卧室的门。<br>
+<br>
+忍野扇美丽的胴体伫立在房间中央。没有四肢，而是插在一根杆上。就像美容店的模特那样。<br>
+「果然死了吗…」秋谷揉着眉头叹息，「没能更早地救下你，抱歉，忍野小姐。」<br>
+<br>
+「没有这回事，刑警先生。」扇睁开眼睛。你们的对话，她隔着门都听到了，「如你所见，我现在健康地活着哟。」<br>
+「哦，真的吗！没了四肢也能活下来，像这样开口说话，真是奇迹！」秋谷惊叹着。
+<br>
+「嗯哼。还有更惊人的呢。」扇唱了一首歌。你给她打着拍子，而秋谷听完也鼓起掌来。<br>
+「唱的真棒。忍野小姐很有活力呢。」秋谷向你深深鞠了一躬，「真是万分抱歉，我误会了！」<br>
+<br>
+你接受了秋谷的道歉，送了他一盒羊羹，让他回去了。<br>
+<br>
+END-10 谢罪</p>
+</div>
+
+</body>
+</html>
